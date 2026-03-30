@@ -6,20 +6,12 @@
 
 ## ✨ 功能
 
-- 🔍 Root 环境检测
-- ⚙️ CPU 频率调节
-- 📜 系统日志导出（logcat / dmesg / pstore）
-- 📦 模块辅助脚本（Tricky Store / 自定义配置）
-- 🧰 通用工具脚本
+- CPU 频率限制（降温 / 控功耗）
+- 日志导出（logcat / dmesg / pstore）
+- Root 环境检测
+- 应用冻结 / 解冻
+- Tricky Store target 管理
 
 ---
 
-## 📦 项目结构
-
-```text
-scripts/
-├─ cpu/        CPU 调整
-├─ logs/       日志工具
-├─ modules/    模块辅助
-└─ utils/      通用工具# android-script-toolkit
-A collection of useful Android shell and root scripts.
+## 📁 项目结构
